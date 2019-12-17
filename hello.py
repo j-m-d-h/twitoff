@@ -9,5 +9,5 @@ app = Flask(__name__)
 @app.route("/")
 
 # define function
-def hello:
+def hello():
     return "Greetings."
